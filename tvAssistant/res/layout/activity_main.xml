@@ -1,0 +1,54 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/back1"
+    android:stretchColumns="*">
+  <TableRow>
+
+        <Button
+            android:id="@+id/bt_testqqlivehd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_testqqlivehd" 
+            style="?android:attr/buttonStyleInset"/>
+
+        
+        
+        <Button
+            android:id="@+id/bt_installqqlivehd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_installqqlivehd"
+            style="?android:attr/buttonStyleSmall" />
+        
+           <Button
+            android:id="@+id/bt_pulltest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_pulltest"
+            style="?android:attr/buttonStyle" />
+           <Button 
+               android:id="@+id/start_service"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Start Service"
+               style="?android:attr/buttonBarButtonStyle"
+               />
+           <Button 
+               android:id="@+id/stop_service"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Stop Service"
+               style="?android:attr/buttonStyle"
+               />
+         </TableRow>
+         <TableRow>
+        <TextView
+            android:id="@+id/txt_boxinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+</TableRow>
+</TableLayout> 

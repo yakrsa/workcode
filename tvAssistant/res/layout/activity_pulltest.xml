@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="com.tencent.tvassistant.activity.PulltestActivity"
+    tools:ignore="MergeRootFrame" 
+    android:background="@drawable/back2"
+   >
+   <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.333333333" 
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=" 广播scheme模式"
+                android:textSize="20dp" >
+			</TextView>
+
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 详情页（综艺）" />
+
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 频道页" />
+
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 首页" />
+
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 播放器" />
+
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 搜索页" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 专题页" 
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 电影详情页" />
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 电视剧详情页" />
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 纪录片详情页" />
+            <Button
+                android:id="@+id/button_broadcast_implicit_intent_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastSchemeButtonClick"
+                android:text="broadcast uri 好莱坞详情页" />
+            
+        </LinearLayout>
+    </ScrollView>
+   
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.333333333" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=" 隐式调用startActivity"
+                android:textSize="20dp" >
+			</TextView>
+            <Button
+                android:id="@+id/button_implicit_intent_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onImplicitStartButtonClick"
+                android:text="implicit uri 详情页" />
+
+            <Button
+                android:id="@+id/button_implicit_intent_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onImplicitStartButtonClick"
+                android:text="implicit uri 频道页" />
+
+            <Button
+                android:id="@+id/button_implicit_intent_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onImplicitStartButtonClick"
+                android:text="implicit uri 首页" />
+
+            <Button
+                android:id="@+id/button_implicit_intent_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onImplicitStartButtonClick"
+                android:text="implicit uri 播放器" />
+
+            <Button
+                android:id="@+id/button_implicit_intent_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onImplicitStartButtonClick"
+                android:text="implicit uri 搜索页"
+                android:visibility="gone" /> 
+            <Button
+                android:id="@+id/button_implicit_intent_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onImplicitStartButtonClick"
+                android:text="implicit uri 专题页" 
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+
+     <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.333333333" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=" broadcast action 方式"
+                android:textSize="20dp" >
+			</TextView>
+            <Button
+                android:id="@+id/button_broadcast_action_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastButtonClick"
+                android:text="broadcast action 详情页" />
+
+            <Button
+                android:id="@+id/button_broadcast_action_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastButtonClick"
+                android:text="broadcast action 频道页" />
+
+            <Button
+                android:id="@+id/button_broadcast_action_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastButtonClick"
+                android:text="broadcast action 首页" />
+
+            <Button
+                android:id="@+id/button_broadcast_action_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastButtonClick"
+                android:text="broadcast action 播放器" />
+
+            <Button
+                android:id="@+id/button_broadcast_action_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onBroadcastButtonClick"
+                android:text="broadcast action 搜索页" 
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+      
+
+</LinearLayout>
